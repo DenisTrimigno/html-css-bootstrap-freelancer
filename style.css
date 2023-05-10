@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(77, 76, 76);
+    width: 100%;
+    height: 100px;
+}
+
+
+
+.content {
+    background-color: yellow;
+    height:100px;
+}
+
+#jumbotron , #about {
+    background-color: rgb(12, 126, 111);
+}
+
+.content-big , .content-portfolio , .content-portfolio-title , .content-about-title{
+    margin: 20px 0px;
+} 
+
+.content-big{
+    height: 400px;
+    background-color: yellow;
+}
+
+.content-portfolio-title , .content-about-title {
+    background-color: red;
+    height: 100px;
+}
+
+.content-portfolio {
+    background-color: orange;
+    height: 300px;
+}
