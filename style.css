@@ -21,7 +21,7 @@ header{
     background-color: rgb(12, 126, 111);
 }
 
-.content-big , .content-portfolio , .content-portfolio-title , .content-about-title{
+.content-big , .content-portfolio , .content-portfolio-title , .content-about-title , .content-footer{
     margin: 20px 0px;
 } 
 
@@ -38,4 +38,22 @@ header{
 .content-portfolio {
     background-color: orange;
     height: 300px;
+}
+
+.top-footer {
+    background-color: rgb(59, 101, 133);
+}
+
+.bottom-footer {
+    background-color: rgb(65, 81, 106);
+}
+
+.bottom-footer {
+    height: 150px;
+}
+
+
+.content-footer {
+    background-color: green;
+    height: 200px;
 }
