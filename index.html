@@ -12,6 +12,7 @@
         <title>Bootstrap</title>
     </head>
     <body>
+        <!-- HEADER IN -->
         <header>
             <div class="container">
                     <nav class="navbar navbar-expand-md">
@@ -26,7 +27,7 @@
                                 <a class="nav-link" aria-current="page" href="#">portfolio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">about</a>
+                                <a class="nav-link">about</a>
                             </li>  
                             <li class="nav-item">
                                 <a class="nav-link" href="#">contact</a>
@@ -37,7 +38,12 @@
                         </div>
                     </nav>
         </header>
+
+        <!-- HEADER OUT -->
+
+        <!-- MAIN IN -->
         <main>
+            <!-- JUMBOTRON -->
             <section id="jumbotron">
                 <div class="container">
                     <div class="row">
@@ -55,6 +61,8 @@
                     </div>
                 </div>
             </section>
+
+            <!-- PORTFOLIO -->
             <section id="portfolio">
                 <div class="container">
                     <div class="row">
@@ -101,6 +109,8 @@
                     </div>
                 </div>
             </section>
+
+            <!-- ABOUT -->
             <section id="about" class="py-5">
                 <div class="container">
                     <div class="row">
@@ -108,15 +118,15 @@
                             <div class="content-about-title text-white text-center">
                                 <h2 class="text-uppercase">About</h2>
                                 <div class="line-star-white">
-                                    <i class="fas fa-star fa-xl p-2"></i>                     
+                                    <i class="fas fa-star fa-xl p-2 "></i>                     
                                 </div>
                             </div>
                         </div>
                     </div>
-                <div class="row">
+                <div class="row " style="margin-top: -50px">
                         <div class="col-12 col-md-10 offset-md-1">
                             <div class="row">
-                                <div class="col-12 col-md-6">
+                                <div class="col-12 col-md-6 ">
                                  <div class="content-big">Freelancer is a free bootstrap theme created by Start
                                     Bootstrap. The download includes the complete source files including HTML. CSS. and JavaScript as well as optional LESS stylesheets for easy customization. </div>
                         </div>
@@ -135,13 +145,13 @@
                 </div>
             </section>
 
-
+            <!-- CONTACT ME -->
             <section id="form">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
                             <div class="content-about-title text-center">
-                                <h2 class="text-uppercase">portfolio</h2>
+                                <h2 class="text-uppercase">Contact me</h2>
                                 <div class="line-star-black">
                                     <i class="fas fa-star fa-xl p-2"></i>                     
                                 </div>
@@ -164,11 +174,11 @@
                                     </div>
 
                                     <div class="col-12">
-                                        <textarea placeholder="message"></textarea>
+                                        <textarea rows="8" placeholder="Message"></textarea>
                                     </div>
 
                                     <div class="col-12">
-                                        <button type="submit">Send</button>
+                                        <button class="btn-green-form my-3 " type="submit">Send</button>
                                     </div>
                                     
                                 </form>
@@ -180,18 +190,35 @@
                 </div>
             </section>
         </main>
+        <!-- MAIN OUT-->
+
+        <!-- FOOTER IN  -->
         <footer>
            <div class="top-footer">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-md-4">
-                            <div class="content-footer"></div>
+                            <div class="content-footer text-white text-center my-5 ">
+                                <h3 class="">Location</h3>
+                                <p>2215 John Daniel Drive Clark. MO <br>54243</p>
+                                
+                            </div>
                         </div>
                         <div class="col-12 col-md-4">
-                            <div class="content-footer"></div>
+                            <div class="content-footer text-white text-center my-5">
+                                <h3 class="">arround the web</h3>
+                                <i class="fab fa-facebook-f border rounded-circle p-2 me-1" style="width: 40px; font-size: 20px;"></i>
+                                <i class="fab fa-google-plus-g border rounded-circle p-2 me-1" style="width: 40px; font-size: 20px;"></i>
+                                <i class="fab fa-twitter border rounded-circle p-2 me-1" style="width: 40px; font-size: 20px;"></i>
+                                <i class="fab fa-linkedin-in border rounded-circle p-2 me-1" style="width: 40px; font-size: 20px;"></i>
+                            </div>
                         </div>
                         <div class="col-12 col-md-4">
-                            <div class="content-footer"></div>
+                            <div class="content-footer text-white text-center my-5 ">
+                                <h3 class="">about freelancer</h3>
+                                <p>Freelance is a free to use, open source
+                                    Bootstrap theme created <span class="text-green">by Start
+                                    Bootstrap.</span> </p>
                         </div>
                     </div>
                 </div>
@@ -200,12 +227,15 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <div class="content-about-title"></div>
+                            <div class="content-about-title text-center text-white">
+                               <p class="p-3">Copvright © Your Website 2019</p> 
+                            </div>
                         </div>
                     </div>
                 </div>
            </div>
         </footer>
+        <!-- FOOTER OUT -->
         
     </body>
     </html>
