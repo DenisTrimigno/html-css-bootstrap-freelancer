@@ -9,6 +9,9 @@ header{
     width: 100%;
 }
 
+h3 {
+    text-transform: uppercase;
+}
 
 
 .content {
@@ -20,6 +23,10 @@ header{
     background-color: rgb(12, 126, 111);
 }
 
+#portfolio {
+    margin-bottom: 30px;
+}
+
 .content-big , .content-portfolio , .content-portfolio-title , .content-about-title , .content-footer{
     margin: 20px 0px;
 } 
@@ -29,18 +36,13 @@ header{
     color: white;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
    
 }
 
-.content-portfolio-title , .content-about-title {
-    background-color: red;
-    height: 100px;
-}
 
-.content-portfolio {
-    background-color: orange;
-    height: 300px;
-}
 
 .top-footer {
     background-color: rgb(59, 101, 133);
@@ -80,5 +82,34 @@ header{
 }
 
 .img-jumbotron{
-    width: 250px;
+    width: 200px;
+    margin: 15px 0px;
+}
+
+.line-star-white , .line-star-black {
+    margin: 20px;
+}
+
+
+
+.line-star-white::before , .line-star-white::after {
+    content:'';
+    display: inline-block;
+    width: 100px;
+    height: 4px;
+    background-color: rgb(249, 249, 249);
+}
+
+.line-star-black::before , .line-star-black::after {
+    content:'';
+    display: inline-block;
+    width: 100px;
+    height: 4px;
+    background-color: rgb(8, 8, 8);
+}
+
+input {
+    border-bottom: 1px solid gray;
+    margin: 20px;
+    width: 100%;
 }
